@@ -17,3 +17,6 @@
 4- The player will be given a 20 guesses to make, and if they do not guess the number correctly within that limit, the game is over.
 
 5- The winner is the player who correctly guesses the number in the fewest number of guesses. If the player does not correctly guess the number within the allotted number of guesses, the computer is declared the winner.
+
+
+## Demo : https://guess-my-number-game-zeta-pearl.vercel.app/
