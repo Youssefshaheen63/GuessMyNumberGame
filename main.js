@@ -3,9 +3,12 @@
 // -------------------About--------------------------
 const Aboutbtn = document.querySelector(".aboutbtn");
 const About = document.querySelector(".about");
+const overlay = document.querySelector(".overlay");
 
 Aboutbtn.addEventListener("click", (e) => {
-	About.style.display = "block";
+	// About.style.display = "block";
+	About.classList.remove("hidden");
+	overlay.classList.remove("hidden");
 });
 
 // -------------------Rules--------------------------
@@ -13,20 +16,26 @@ const Rules = document.querySelector(".rules");
 const Rulesbtn = document.querySelector(".rulesbtn");
 
 Rulesbtn.addEventListener("click", (e) => {
-	Rules.style.display = "block";
+	// Rules.style.display = "block";
+	Rules.classList.remove("hidden");
+	overlay.classList.remove("hidden");
 });
 
 // ----------------------button--------------------
 const closeicon = document.querySelector(".about .close");
 
 closeicon.onclick = (e) => {
-	About.style.display = "none";
+	// About.style.display = "none";
+	About.classList.add("hidden");
+	overlay.classList.add("hidden");
 };
 
 const closeicon1 = document.querySelector(".rules .close");
 
 closeicon1.onclick = (e) => {
-	Rules.style.display = "none";
+	// Rules.style.display = "none";
+	Rules.classList.add("hidden");
+	overlay.classList.add("hidden");
 };
 
 // -------------------Game Play Win and Lose-----------------------------
