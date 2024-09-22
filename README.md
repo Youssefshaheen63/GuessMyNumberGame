@@ -4,7 +4,7 @@
 ## About 🔬
 - This is a really small project created to practice Javascript and DOM manipulation.
 
-- The project is part of the Jonas Schmedtmann's The Complete JavaScript Course 2023: From Zero to Expert! course, I added a few additional feautures such as responsive view, accessibility and additional UI change when you lose the game.
+- The project is part of the Jonas Schmedtmann's The Complete JavaScript Course 2023: From Zero to Expert! course.
 
 ## Game Rules 🚀
 
